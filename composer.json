@@ -10,5 +10,22 @@
     ],
     "require-dev": {
         "orchestra/testbench": "^6.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "lindritkrasniqi\\Larapack\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "lindritkrasniqi\\Larapack\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "lindritkrasniqi\\Larapack\\LarapackBaseServiceProvider"
+            ]
+        }
     }
 }
