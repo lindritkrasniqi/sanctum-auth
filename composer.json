@@ -1,0 +1,11 @@
+{
+    "name": "lindritkrasniqi/larapack",
+    "description": "This is a simple laravel package test.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lindrit Krasniqi",
+            "email": "linndritks@gmail.com"
+        }
+    ]
+}
