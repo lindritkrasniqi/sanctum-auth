@@ -1,6 +1,6 @@
 <?php
 
-namespace lindritkrasniqi\Larapack\Tests;
+namespace lindritkrasniqi\SanctumAuth\Tests;
 
 use Orchestra\Testbench\TestCase;
 
