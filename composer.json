@@ -1,6 +1,7 @@
 {
-    "name": "lindritkrasniqi/larapack",
-    "description": "This is a simple laravel package test.",
+    "version": "1.0.0",
+    "name": "lindritkrasniqi/sanctum-auth",
+    "description": "This is a simple sanctum laravel authentication app.",
     "license": "MIT",
     "authors": [
         {
@@ -13,18 +14,18 @@
     },
     "autoload": {
         "psr-4": {
-            "lindritkrasniqi\\Larapack\\": "src/"
+            "lindritkrasniqi\\SanctumAuth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "lindritkrasniqi\\Larapack\\Tests\\": "tests/"
+            "lindritkrasniqi\\SanctumAuth\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "lindritkrasniqi\\Larapack\\LarapackBaseServiceProvider"
+                "lindritkrasniqi\\SanctumAuth\\SanctumAuthBaseServiceProvider"
             ]
         }
     }
