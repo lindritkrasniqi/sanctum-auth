@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to sanctum-auth
 
-You can use the [editor on GitHub](https://github.com/lindritkrasniqi/sanctum-auth/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This legacy package is a very simple authentication scaffolding built on the Laravel Sanctum.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Installation
+The sanctum-auth package provided by [@lindritkrasniqi](https://github.com/lindritkrasniqi) is located in the `lindritkrasniqi/sanctum-auth` Composer package, which may be installed using Composer:
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+  composer require lindritkrasniqi/sanctum-auth
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Once the `lindritkrasniqi/sanctum-auth` package has been installed, you may install the backend scaffolding using the `sanctum-auth` Artisan command:
 
-### Jekyll Themes
+```
+  // Generate scaffolding...
+  php artisan sanctum-auth:install
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lindritkrasniqi/sanctum-auth/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  // Remove scaffolding...
+  php artisan sanctum-auth:uninstall
+```
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Supported Versions
+
+The table below lists compatible Laravel versions:
+
+| Versions                                                  | Laravel Version |
+| -------------                                             | --------------- |
+| [1.x](https://github.com/lindritkrasniqi/sanctum-auth)    | 8.x             |
+
