@@ -1,15 +1,10 @@
 <?php
 
-namespace lindritkrasniqi\Larapack;
+namespace lindritkrasniqi\SanctumAuth;
 
 use Illuminate\Support\ServiceProvider;
 
-/**
- * Service provider class
- * 
- * @author Lindrit Krasniqi <linndritks@gmail.com>
- */
-class LarapackBaseServiceProvider extends ServiceProvider
+class SanctumAuthBaseServiceProvider extends ServiceProvider
 {
     /**
      * Undocumented function
@@ -29,7 +24,8 @@ class LarapackBaseServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands([
-            // Console\TestCommand::class
+             Console\InstallCommand::class,
+             Console\UninstallCommand::class
         ]);
     }
 }
