@@ -20,6 +20,17 @@ Once the `lindritkrasniqi/sanctum-auth` package has been installed, you may inst
 ```
 
 
+### Api documentation
+
+Checkout the api [docs](https://www.postman.com/lindritkrasniqi/workspace/sanctum-auth) and the endpoints with the response examples.
+
+- [x] ``` /api/login ```
+- [x] ``` /api/register ```
+- [x] ``` /api/me ```
+- [x] ``` /api/forgot ```
+- [x] ``` /api/reset ```
+- [x] ``` /api/logout ```
+
 ### Supported Versions
 
 The table below lists compatible Laravel versions:
